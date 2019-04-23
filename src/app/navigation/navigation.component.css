@@ -1,0 +1,30 @@
+header {
+    background: blueviolet;
+}
+.logo {
+    font-weight: bold;
+}
+nav {
+    justify-self: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    text-align: center;
+}
+li a {
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+li a:hover {
+    color: blueviolet;
+    background-color: #ddd;
+}
+
+/*can write a media query to make nav bar responsive*/
